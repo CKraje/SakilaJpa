@@ -1,0 +1,12 @@
+package it.objectmethod.sakila.SakilaJpa;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SakilaJpaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SakilaJpaApplication.class, args);
+	}
+}
