@@ -41,7 +41,7 @@ public class Film {
 	@JoinTable(name="film_category",joinColumns =@JoinColumn(name = "film_id"),
 	inverseJoinColumns = @JoinColumn(name="category_id"))
 	
-	public List<Category> categoryList = new ArrayList<Category>();
+	public List<Category> categoryList;
 
 	public int getId() {
 		return filmId;

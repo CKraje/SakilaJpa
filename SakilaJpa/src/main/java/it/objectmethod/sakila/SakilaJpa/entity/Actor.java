@@ -32,7 +32,7 @@ public class Actor  {
 	@JoinTable(name="film_actor",joinColumns=@JoinColumn(name="actor_id"),
 	inverseJoinColumns = @JoinColumn(name="film_id"))
 
-	private List<Film> listFilm= new ArrayList<Film>();
+	private List<Film> listFilm;
 
 
 	public int getId() {
